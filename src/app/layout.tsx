@@ -51,7 +51,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl" className={`${inter.variable} ${bebasNeue.variable}`}>
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "name": "MKN Technisch — Grond Werken",
+              "url": "https://mkntechnisch.com",
+              "creator": {
+                "@type": "Organization",
+                "name": "DMC Kreatif",
+                "url": "https://dmckreatif.com",
+              },
+            }),
+          }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

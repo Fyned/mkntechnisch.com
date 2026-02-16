@@ -238,6 +238,14 @@ export default function Home() {
             &copy; 2025 MKN Technisch BV &mdash; Grond Werken. Alle rechten
             voorbehouden.
           </p>
+          <a
+            href="https://dmckreatif.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-3 text-[10px] text-gray-700 hover:text-gray-400 transition-colors"
+          >
+            Gemaakt door DMC Kreatif
+          </a>
         </div>
       </footer>
     </main>
