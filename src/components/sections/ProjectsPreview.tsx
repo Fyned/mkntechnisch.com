@@ -15,8 +15,8 @@ export default function ProjectsPreview() {
 
   // Pick 6 diverse images from both projects
   const featured = [
-    ...projects[0].images.filter((_, i) => i % 8 === 0).slice(0, 3),
-    ...projects[1].images.filter((_, i) => i % 10 === 0).slice(0, 3),
+    ...projects[0].images.filter((_, i) => i % 8 === 0).slice(0, 3).map((img) => ({ ...img, key: `p1-${img.filename}` })),
+    ...projects[1].images.filter((_, i) => i % 10 === 0).slice(0, 3).map((img) => ({ ...img, key: `p2-${img.filename}` })),
   ].slice(0, 6);
 
   return (
@@ -36,7 +36,7 @@ export default function ProjectsPreview() {
         {/* Image grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 mb-10">
           {featured.map((img, index) => (
-            <AnimatedSection key={img.filename} delay={index * 0.08}>
+            <AnimatedSection key={img.key} delay={index * 0.08}>
               <Link
                 href={`/${locale}/projecten`}
                 className="group relative aspect-[4/3] overflow-hidden rounded-lg block"

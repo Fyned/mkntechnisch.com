@@ -43,7 +43,7 @@ export default function ContactContent() {
       formData.message,
     ].join("\n");
 
-    const whatsappUrl = `https://wa.me/32472126216?text=${encodeURIComponent(text)}`;
+    const whatsappUrl = `https://wa.me/32484471995?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, "_blank");
   };
 
@@ -256,7 +256,7 @@ export default function ContactContent() {
 
               {/* WhatsApp direct */}
               <a
-                href="https://wa.me/32472126216"
+                href="https://wa.me/32484471995"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 bg-themed-card border border-green-600/20 rounded-xl p-5 hover:border-green-600/40 transition-colors group"

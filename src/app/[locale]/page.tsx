@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Hero from "@/components/sections/Hero";
@@ -12,6 +13,30 @@ type Props = {
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+
+  return locale === "fr"
+    ? {
+        title: "MKN Technisch BV — Démolition, Déconstruction & Terrassement en Belgique",
+        description:
+          "MKN Technisch BV — Spécialiste en démolition, déconstruction, strip et terrassement dans toute la Belgique. Sûr, efficace et professionnel.",
+        alternates: {
+          canonical: "https://mkntechnisch.com/fr",
+          languages: { "nl-BE": "https://mkntechnisch.com/nl", "fr-BE": "https://mkntechnisch.com/fr" },
+        },
+      }
+    : {
+        title: "MKN Technisch BV — Sloop, Afbraak & Grondwerken in België",
+        description:
+          "MKN Technisch BV — Specialist in sloop, afbraak, strip- en grondwerken in heel België. Veilig, efficiënt en professioneel. Vraag een gratis offerte aan.",
+        alternates: {
+          canonical: "https://mkntechnisch.com/nl",
+          languages: { "nl-BE": "https://mkntechnisch.com/nl", "fr-BE": "https://mkntechnisch.com/fr" },
+        },
+      };
 }
 
 export default async function HomePage({ params }: Props) {

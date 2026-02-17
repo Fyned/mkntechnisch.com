@@ -37,9 +37,66 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
 
+  const altLocale = locale === "nl" ? "fr" : "nl";
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://mkntechnisch.com/#business",
+    name: "MKN Technisch BV",
+    legalName: "MKN Technisch BV",
+    description:
+      locale === "fr"
+        ? "Travaux de démolition, déconstruction et terrassement dans toute la Belgique"
+        : "Sloop, afbraak en ontmantelingswerken in heel België",
+    url: `https://mkntechnisch.com/${locale}`,
+    telephone: ["+32472126216", "+32484471995"],
+    email: "mkntechnischbv@gmail.com",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Assesteenweg 65",
+      addressLocality: "Ternat",
+      postalCode: "1740",
+      addressRegion: "Vlaams-Brabant",
+      addressCountry: "BE",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 50.876,
+      longitude: 4.163,
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Belgium",
+    },
+    priceRange: "$$",
+    image: "https://mkntechnisch.com/images/projects/project-1/full/img-002.webp",
+    knowsLanguage: ["nl", "fr"],
+    serviceType: [
+      "Sloopwerken",
+      "Afbraakwerken",
+      "Stripwerken",
+      "Grondwerken",
+      "Ontmanteling",
+    ],
+    creator: {
+      "@type": "Organization",
+      name: "DMC Kreatif",
+      url: "https://dmckreatif.com",
+    },
+  };
+
   return (
     <html lang={locale} className={`light ${inter.variable} ${bebasNeue.variable}`} suppressHydrationWarning>
       <head>
+        {/* Designer credit */}
+        <meta name="designer" content="DMC Kreatif — dmckreatif.com" />
+
+        {/* Hreflang tags for international SEO */}
+        <link rel="alternate" hrefLang={locale} href={`https://mkntechnisch.com/${locale}`} />
+        <link rel="alternate" hrefLang={altLocale} href={`https://mkntechnisch.com/${altLocale}`} />
+        <link rel="alternate" hrefLang="x-default" href="https://mkntechnisch.com/nl" />
+
         {/* Blocking script to prevent theme flash (FOUC) */}
         <script
           dangerouslySetInnerHTML={{
@@ -48,32 +105,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body>
+        {/* Structured data — LocalBusiness */}
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "MKN Technisch BV",
-              description:
-                "Sloop, afbraak en ontmantelingswerken in heel België",
-              url: "https://mkntechnisch.com",
-              telephone: "+32472126216",
-              email: "mkntechnischbv@gmail.com",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Assesteenweg 65",
-                addressLocality: "Ternat",
-                postalCode: "1740",
-                addressCountry: "BE",
-              },
-              creator: {
-                "@type": "Organization",
-                name: "DMC Kreatif",
-                url: "https://dmckreatif.com",
-              },
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider>
