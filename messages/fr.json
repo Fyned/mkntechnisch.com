@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A propos",
+    "services": "Services",
+    "projects": "Projets",
+    "contact": "Contact",
+    "getQuote": "Demander un devis"
+  },
+  "hero": {
+    "tagline": "Votre spécialiste en démolition et déconstruction",
+    "subtitle": "Travaux de terrassement professionnels dans toute la Belgique",
+    "cta": "Voir nos projets",
+    "ctaContact": "Contactez-nous"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Ce que nous faisons",
+    "demolition": {
+      "title": "Travaux de démolition",
+      "description": "Démolition complète de bâtiments, structures et constructions. En toute sécurité et efficacité avec du matériel moderne.",
+      "features": ["Démolition complète", "Démolition partielle", "Démolition industrielle", "Garantie de sécurité"]
+    },
+    "stripping": {
+      "title": "Travaux de décapage",
+      "description": "Démantèlement professionnel et décapage d'intérieurs. Démolition sélective pour les projets de rénovation.",
+      "features": ["Décapage intérieur", "Démolition sélective", "Retrait d'amiante", "Préparation de rénovation"]
+    },
+    "deconstruction": {
+      "title": "Travaux de déconstruction",
+      "description": "Déconstruction contrôlée avec attention au recyclage et à l'environnement. Durable et responsable.",
+      "features": ["Déconstruction contrôlée", "Recyclage des matériaux", "Respectueux de l'environnement", "Tri des matériaux"]
+    },
+    "groundwork": {
+      "title": "Travaux de terrassement",
+      "description": "Travaux de terrassement professionnels pour les projets de construction et d'infrastructure.",
+      "features": ["Excavation", "Nivellement", "Fondations", "Aménagement de terrain"]
+    },
+    "viewAll": "Voir tous les services"
+  },
+  "projects": {
+    "title": "Nos projets",
+    "subtitle": "Découvrez nos réalisations",
+    "all": "Tous",
+    "videos": "Vidéos",
+    "loadMore": "Charger plus",
+    "viewAll": "Voir tous les projets",
+    "view": "Voir"
+  },
+  "about": {
+    "title": "A propos de MKN Technisch",
+    "subtitle": "Qui sommes-nous",
+    "intro": "MKN Technisch BV est spécialisé dans les travaux de démolition, de décapage et de déconstruction dans toute la Belgique. Avec des années d'expérience et du matériel professionnel, nous fournissons un travail de qualité pour les grands et petits projets.",
+    "mission": {
+      "title": "Notre mission",
+      "text": "Nous nous efforçons d'offrir à chaque client le meilleur service possible. La sécurité, l'efficacité et la satisfaction du client sont au cœur de tout ce que nous faisons."
+    },
+    "whyUs": {
+      "title": "Pourquoi MKN Technisch ?",
+      "experience": {
+        "title": "Expérience",
+        "text": "Des années d'expertise en démolition et déconstruction"
+      },
+      "safety": {
+        "title": "Sécurité",
+        "text": "La sécurité est toujours notre priorité"
+      },
+      "quality": {
+        "title": "Qualité",
+        "text": "Matériel professionnel et savoir-faire"
+      },
+      "allBelgium": {
+        "title": "Toute la Belgique",
+        "text": "Nous travaillons dans toute la Belgique"
+      }
+    }
+  },
+  "stats": {
+    "projects": "Projets",
+    "yearsExperience": "Années d'expérience",
+    "allBelgium": "Toute la Belgique",
+    "satisfaction": "Satisfaction client"
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Demandez un devis gratuit dès aujourd'hui",
+    "button": "Demander un devis"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prenez contact",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "workType": "Type de travail",
+    "workTypes": {
+      "demolition": "Démolition",
+      "stripping": "Décapage",
+      "deconstruction": "Déconstruction",
+      "groundwork": "Terrassement",
+      "other": "Autre"
+    },
+    "message": "Message",
+    "send": "Envoyer via WhatsApp",
+    "sendSubtitle": "Votre message s'ouvrira dans WhatsApp",
+    "info": {
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "address": "Adresse",
+      "whatsapp": "WhatsApp",
+      "sendMessage": "Envoyer un message"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "madeBy": "Réalisé par"
+  }
+}

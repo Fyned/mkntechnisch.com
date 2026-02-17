@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Over ons",
+    "services": "Diensten",
+    "projects": "Projecten",
+    "contact": "Contact",
+    "getQuote": "Offerte aanvragen"
+  },
+  "hero": {
+    "tagline": "Uw specialist in sloop- en afbraakwerken",
+    "subtitle": "Professionele grondwerken in heel België",
+    "cta": "Bekijk onze projecten",
+    "ctaContact": "Contacteer ons"
+  },
+  "services": {
+    "title": "Onze diensten",
+    "subtitle": "Wat wij doen",
+    "demolition": {
+      "title": "Sloopwerken",
+      "description": "Volledige sloop van gebouwen, structuren en constructies. Veilig en efficiënt met modern materieel.",
+      "features": ["Volledige gebouwsloop", "Gedeeltelijke sloop", "Industriële sloop", "Veiligheidsgarantie"]
+    },
+    "stripping": {
+      "title": "Stripwerken",
+      "description": "Professionele ontmanteling en strippen van interieurs. Selectief slopen voor renovatieprojecten.",
+      "features": ["Interieur strippen", "Selectief slopen", "Asbest verwijdering", "Renovatievoorbereiding"]
+    },
+    "deconstruction": {
+      "title": "Afbraakwerken",
+      "description": "Gecontroleerde afbraak met aandacht voor recyclage en milieu. Duurzaam en verantwoord.",
+      "features": ["Gecontroleerde afbraak", "Materiaalrecyclage", "Milieuvriendelijk", "Sorteerwerk"]
+    },
+    "groundwork": {
+      "title": "Grondwerken",
+      "description": "Professionele grondwerken voor bouw- en infrastructuurprojecten. Uitgraving, nivellering en meer.",
+      "features": ["Uitgraving", "Nivellering", "Funderingswerk", "Terreinaanleg"]
+    },
+    "viewAll": "Bekijk alle diensten"
+  },
+  "projects": {
+    "title": "Onze projecten",
+    "subtitle": "Bekijk ons werk",
+    "all": "Alle",
+    "videos": "Video's",
+    "loadMore": "Meer laden",
+    "viewAll": "Bekijk alle projecten",
+    "view": "Bekijken"
+  },
+  "about": {
+    "title": "Over MKN Technisch",
+    "subtitle": "Wie zijn wij",
+    "intro": "MKN Technisch BV is gespecialiseerd in sloop-, strip- en afbraakwerken in heel België. Met jarenlange ervaring en professioneel materieel leveren wij kwaliteitswerk voor zowel grote als kleine projecten.",
+    "mission": {
+      "title": "Onze missie",
+      "text": "Wij streven ernaar om elke klant de best mogelijke service te bieden. Veiligheid, efficiëntie en klanttevredenheid staan centraal in alles wat we doen."
+    },
+    "whyUs": {
+      "title": "Waarom MKN Technisch?",
+      "experience": {
+        "title": "Ervaring",
+        "text": "Jarenlange expertise in sloop- en afbraakwerken"
+      },
+      "safety": {
+        "title": "Veiligheid",
+        "text": "Veiligheid staat altijd op de eerste plaats"
+      },
+      "quality": {
+        "title": "Kwaliteit",
+        "text": "Professioneel materieel en vakmanschap"
+      },
+      "allBelgium": {
+        "title": "Heel België",
+        "text": "Wij werken in heel België, groot en klein"
+      }
+    }
+  },
+  "stats": {
+    "projects": "Projecten",
+    "yearsExperience": "Jaar ervaring",
+    "allBelgium": "Heel België",
+    "satisfaction": "Klanttevredenheid"
+  },
+  "cta": {
+    "title": "Klaar om te starten?",
+    "subtitle": "Vraag vandaag nog een vrijblijvende offerte aan",
+    "button": "Offerte aanvragen"
+  },
+  "contact": {
+    "title": "Contacteer ons",
+    "subtitle": "Neem contact op",
+    "name": "Naam",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "workType": "Type werk",
+    "workTypes": {
+      "demolition": "Sloopwerken",
+      "stripping": "Stripwerken",
+      "deconstruction": "Afbraakwerken",
+      "groundwork": "Grondwerken",
+      "other": "Anders"
+    },
+    "message": "Bericht",
+    "send": "Verstuur via WhatsApp",
+    "sendSubtitle": "Uw bericht wordt geopend in WhatsApp",
+    "info": {
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "address": "Adres",
+      "whatsapp": "WhatsApp",
+      "sendMessage": "Stuur een bericht"
+    }
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden",
+    "madeBy": "Gemaakt door"
+  }
+}
