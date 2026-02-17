@@ -476,10 +476,6 @@ export const projects: Project[] = [
     ],
     videos: [
           {
-                "filename": "video-01.mp4",
-                "src": "/videos/project-1/video-01.mp4"
-          },
-          {
                 "filename": "video-02.mp4",
                 "src": "/videos/project-1/video-02.mp4"
           },

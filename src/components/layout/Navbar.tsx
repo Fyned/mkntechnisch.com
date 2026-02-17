@@ -105,12 +105,19 @@ export default function Navbar() {
               <ThemeToggle />
               <LanguageSwitcher />
               <a
-                href="tel:+32472126216"
+                href="tel:+32484471995"
                 className="flex items-center gap-2 bg-mkn-red hover:bg-mkn-red-dark text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-mkn-red focus-visible:outline-offset-2"
               >
                 <Phone className="w-4 h-4" />
-                <span className="hidden xl:inline">0472 12 62 16</span>
+                <span className="hidden xl:inline">0484 47 19 95</span>
                 <span className="xl:hidden">{t("getQuote")}</span>
+              </a>
+              <a
+                href="tel:+32472126216"
+                className="hidden xl:flex items-center gap-2 text-muted hover:text-mkn-red text-sm font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-mkn-red focus-visible:outline-offset-2"
+              >
+                <Phone className="w-4 h-4" />
+                0472 12 62 16
               </a>
             </div>
 
@@ -150,8 +157,15 @@ export default function Navbar() {
               </Link>
             ))}
             <a
-              href="tel:+32472126216"
+              href="tel:+32484471995"
               className="flex items-center justify-center gap-2 mt-3 bg-mkn-red hover:bg-mkn-red-dark text-white px-4 py-3 rounded-lg text-sm font-medium transition-colors"
+            >
+              <Phone className="w-4 h-4" />
+              0484 47 19 95
+            </a>
+            <a
+              href="tel:+32472126216"
+              className="flex items-center justify-center gap-2 mt-1 text-muted hover:text-mkn-red px-4 py-2 rounded-lg text-sm font-medium transition-colors"
             >
               <Phone className="w-4 h-4" />
               0472 12 62 16

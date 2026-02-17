@@ -36,6 +36,12 @@ export default function CTA() {
                   {t("button")}
                 </Link>
                 <a
+                  href="tel:+32484471995"
+                  className="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  0484 47 19 95
+                </a>
+                <a
                   href="tel:+32472126216"
                   className="inline-flex items-center gap-2 border-2 border-white/30 hover:border-white text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
