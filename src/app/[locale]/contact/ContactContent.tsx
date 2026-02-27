@@ -209,7 +209,7 @@ export default function ContactContent() {
                       href="tel:+32484471995"
                       className="text-foreground hover:text-mkn-red transition-colors block"
                     >
-                      0484 471 995
+                      0484 47 19 95
                     </a>
                   </div>
                 </div>

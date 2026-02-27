@@ -92,7 +92,7 @@ export default function Footer() {
               </a>
               <a href="tel:+32484471995" className="flex items-center gap-2 text-sm text-muted hover:text-mkn-red transition-colors">
                 <Phone className="w-4 h-4 shrink-0" />
-                0484 471 995
+                0484 47 19 95
               </a>
               <a href="mailto:mkntechnischbv@gmail.com" className="flex items-center gap-2 text-sm text-muted hover:text-mkn-red transition-colors">
                 <Mail className="w-4 h-4 shrink-0" />

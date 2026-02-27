@@ -114,7 +114,7 @@ export default function Navbar() {
               </a>
               <a
                 href="tel:+32472126216"
-                className="hidden xl:flex items-center gap-2 text-muted hover:text-mkn-red text-sm font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-mkn-red focus-visible:outline-offset-2"
+                className="hidden xl:flex items-center gap-2 bg-mkn-red hover:bg-mkn-red-dark text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-mkn-red focus-visible:outline-offset-2"
               >
                 <Phone className="w-4 h-4" />
                 0472 12 62 16

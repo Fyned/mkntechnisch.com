@@ -13,10 +13,11 @@ export default function ProjectsPreview() {
   const pathname = usePathname();
   const locale = pathname.split("/")[1] || "nl";
 
-  // Pick 6 diverse images from both projects
+  // Pick 6 diverse images from all projects
   const featured = [
-    ...projects[0].images.filter((_, i) => i % 8 === 0).slice(0, 3).map((img) => ({ ...img, key: `p1-${img.filename}` })),
-    ...projects[1].images.filter((_, i) => i % 10 === 0).slice(0, 3).map((img) => ({ ...img, key: `p2-${img.filename}` })),
+    ...projects[0].images.filter((_, i) => i % 8 === 0).slice(0, 2).map((img) => ({ ...img, key: `p1-${img.filename}` })),
+    ...projects[1].images.filter((_, i) => i % 10 === 0).slice(0, 2).map((img) => ({ ...img, key: `p2-${img.filename}` })),
+    ...(projects[2]?.images.filter((_, i) => i % 5 === 0).slice(0, 2).map((img) => ({ ...img, key: `p3-${img.filename}` })) || []),
   ].slice(0, 6);
 
   return (
