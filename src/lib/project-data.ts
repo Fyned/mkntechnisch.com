@@ -1307,6 +1307,145 @@ export const projects: Project[] = [
           }
     ],
   },
+  {
+    id: "project-4",
+    images: [
+          {
+                "filename": "img-001.webp",
+                "full": "/images/projects/project-4/full/img-001.webp",
+                "thumb": "/images/projects/project-4/thumb/img-001.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoKAAgABUB8JYgCdADZnTwAAN9KwAz7qGItmoMFxR0Pe0q4gAA=",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-002.webp",
+                "full": "/images/projects/project-4/full/img-002.webp",
+                "thumb": "/images/projects/project-4/thumb/img-002.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAgCdASoKAA0ABUB8JbACdAEU94eh9zJAAPyMS7nppytrPEcNT/zfBmA1DBKlVBgxaQ/7lIAAAA==",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-003.webp",
+                "full": "/images/projects/project-4/full/img-003.webp",
+                "thumb": "/images/projects/project-4/thumb/img-003.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAA0ABUB8JYwCsAEO04xgAOIoK9+juSCEmY2Bg6BQB5/FrRaS/9qFID0k3Y4zwAA=",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-004.webp",
+                "full": "/images/projects/project-4/full/img-004.webp",
+                "thumb": "/images/projects/project-4/thumb/img-004.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAABwAQCdASoKAAgABUB8JZwAAlATgAD8j4HJX7x7HR9Mn1ZFSHeosxMHIIAAAA==",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-005.webp",
+                "full": "/images/projects/project-4/full/img-005.webp",
+                "thumb": "/images/projects/project-4/thumb/img-005.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAQAgCdASoKAA0ABUB8JQBOgCFspkPEd8QAAN5bGkbm5D+1Pa6gCYxxn5/HPu+ugX6ncURXSvsrpDIKKBMMcngAAAA=",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-006.webp",
+                "full": "/images/projects/project-4/full/img-006.webp",
+                "thumb": "/images/projects/project-4/thumb/img-006.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACQAQCdASoKAA0ABUB8JYwCdADYpAAA/toNDrRO8edDFQnt8odGNWNd35gjnRRad6EyxlD4Q9Tsm8AA",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-007.webp",
+                "full": "/images/projects/project-4/full/img-007.webp",
+                "thumb": "/images/projects/project-4/thumb/img-007.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACQAQCdASoKAAgABUB8JQBOgBtqngAA/pjEfx1e3hgvb84Vaissw7Y0bTZ9TNR1gzAAAA==",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-008.webp",
+                "full": "/images/projects/project-4/full/img-008.webp",
+                "thumb": "/images/projects/project-4/thumb/img-008.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoKAA0ABUB8JYgCdADZqz48IAD91a2OYxLDpJfKOucwtHJzMxnSJtBROWnkcAFOOiBb0tYyoqUAAA==",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-009.webp",
+                "full": "/images/projects/project-4/full/img-009.webp",
+                "thumb": "/images/projects/project-4/thumb/img-009.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAQCdASoKAAgABUB8JQBOgCFwTrIjAAD9aYmmFNjxX7TtMCAEgkSUwC+WpdqO8gAAAA==",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-010.webp",
+                "full": "/images/projects/project-4/full/img-010.webp",
+                "thumb": "/images/projects/project-4/thumb/img-010.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADQAQCdASoKAAgABUB8JQBOgCHevH3DgAD+3/TqyWQMotput2/BmkpL42hAAA==",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-011.webp",
+                "full": "/images/projects/project-4/full/img-011.webp",
+                "thumb": "/images/projects/project-4/thumb/img-011.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAA0ABUB8JQBOgBuTOjAYAPhhu/3k4ZdxXMNR3KPLzvFBySz28YosivE6/34AAAA=",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-012.webp",
+                "full": "/images/projects/project-4/full/img-012.webp",
+                "thumb": "/images/projects/project-4/thumb/img-012.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAADwAQCdASoKAAgABUB8JYwCdAEU8m8XrAAA+GL0SlNGeGg6AEauwZfcAAA=",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-013.webp",
+                "full": "/images/projects/project-4/full/img-013.webp",
+                "thumb": "/images/projects/project-4/thumb/img-013.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAQCdASoKAAgABUB8JZQC7AEOZ0NUAAD44zmiCc8yCUr4D+8UrcAA",
+                "width": 1600,
+                "height": 1200
+          },
+          {
+                "filename": "img-014.webp",
+                "full": "/images/projects/project-4/full/img-014.webp",
+                "thumb": "/images/projects/project-4/thumb/img-014.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAA0ABUB8JYwC7ADZF1oAAPyycrfg+BQHuOT1lJnHA3K04+YxoRh1gzg4j4l0aAA=",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-015.webp",
+                "full": "/images/projects/project-4/full/img-015.webp",
+                "thumb": "/images/projects/project-4/thumb/img-015.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAQCdASoKAA0ABUB8JYwC7AEOdONeVgAA4nn93Q/sPYP5vH+Odxhkpa0hWBX3GkYJMAH5o6AAAA==",
+                "width": 1200,
+                "height": 1600
+          },
+          {
+                "filename": "img-016.webp",
+                "full": "/images/projects/project-4/full/img-016.webp",
+                "thumb": "/images/projects/project-4/thumb/img-016.webp",
+                "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACwAQCdASoKAA0ABUB8JQBOgCIcEvgAAPRYf0rcsJ34A7nKZBXslmw7xB/eko3hEEbTwlIgAAA=",
+                "width": 1200,
+                "height": 1600
+          }
+    ],
+    videos: [
+          {
+                "filename": "video-01.mp4",
+                "src": "/videos/project-4/video-01.mp4"
+          }
+    ],
+  },
 ];
 
 export const allImages: ProjectImage[] = projects.flatMap((p) => p.images);
