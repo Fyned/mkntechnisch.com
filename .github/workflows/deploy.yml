@@ -26,11 +26,11 @@ jobs:
         run: npm run build
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out/
-          server-dir: ./public_html/
-          dangerous-clean-slate: true
+        run: |
+          sudo apt-get install -y lftp
+          lftp -u "${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }}" ftp://${{ secrets.FTP_SERVER }} <<EOF
+          set ftp:ssl-allow no
+          set mirror:parallel-transfer-count 5
+          mirror --reverse --delete --verbose out/ /public_html/
+          quit
+          EOF
